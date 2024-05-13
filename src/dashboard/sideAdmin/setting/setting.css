@@ -1,0 +1,20 @@
+.tab {
+  display: flex;
+  width: 100%;
+  gap: 0.1rem;
+}
+.tab button {
+  width: 100%;
+  padding: 14px 20px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px dotted;
+}
+.tab .tab_btn_active {
+  background: #00aeff;
+}
+.tab .tab_btn {
+  background: rgb(87, 197, 248);
+}

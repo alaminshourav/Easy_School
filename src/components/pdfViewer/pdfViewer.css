@@ -1,0 +1,69 @@
+.react-pdf__Page__canvas,
+.react-pdf__Page__textContent {
+  margin: 0 auto;
+  width: 100%;
+}
+.pdf_main_container {
+  height: 100%;
+  margin: 50px auto;
+}
+.download_btn {
+  background-color: transparent;
+  /* padding: 12px 30px; */
+  color: #222;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.page_number {
+  color: #222;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 0;
+}
+.react-pdf__Page__textContent,
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+.react-pdf__Page {
+  margin: 0 auto;
+}
+.react-pdf__Page__canvas {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  background: #fff;
+  width: 100% !important;
+}
+.pdf_btn_text_container {
+  width: calc(100% - 23px);
+  position: absolute;
+  left: 51.5%;
+  top: 0;
+  transform: translate(-50%);
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+.page_navigation_buttons {
+  background: #fff;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  transform: translate(-50%);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 10px;
+}
+.page_navigation_buttons button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.mode_main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 24;
+  padding: 4;
+  overflow-y: auto;
+}
+.mode_main::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mode_main::-webkit-scrollbar-thumb {
+  background-color: rgba(167, 162, 162, 0.5);
+}
+
+.mode_main::-webkit-scrollbar-track {
+  background-color: rgba(177, 172, 172, 0.1);
+}
+
+.model_btn button {
+  position: fixed;
+  left: 1%;
+  top: 50%;
+  transform: translate(-50%);
+  padding-right: 20px;
+  width: fit-content;
+  height: 50px;
+  z-index: 1;
+  display: block;
+  background: #2e6216;
+  padding: 10px;
+  border-radius: 0 25px 25px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.model_btn button:hover {
+  background-color: #fff;
+  color: #f7a31a;
+}
+.modal_header {
+  position: absolute;
+  top: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #2e6216;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notice_tab_main {
+  margin-top: 75px;
+}
+
+.notice_tab {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+@media only screen and (max-width: 668px) {
+  .mode_main {
+    width: 400px;
+    height: 400px;
+  }
+  .model_btn button {
+    display: none;
+  }
+}

@@ -1,0 +1,685 @@
+.dashboard_container_input {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.dashboard_container_input p {
+  margin: 10px 0;
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+}
+.dashboard_container {
+  width: calc(100% - 205px);
+  height: 80vh;
+  margin-left: auto;
+  padding: 20px !important;
+}
+.dashboard_container_form {
+  width: calc(100% - 205px);
+  min-height: 100vh;
+  margin-left: auto;
+  padding: 20px !important;
+}
+
+.listing_container {
+  width: 78%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.upload_img_init {
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+}
+.upload_img_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.upload_img_text span {
+  font-weight: 700;
+}
+.upload_img_init {
+  position: relative;
+  height: 220px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.upload_img_text img {
+  width: 198px;
+  height: 158px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.update_input {
+  height: 65px;
+  padding: 13px 20px;
+  border: 1px solid #999;
+  outline: none;
+  font-size: 1rem;
+}
+.dashboard_input {
+  margin-left: 10px;
+}
+.dashboard_input input {
+  width: 345px;
+  margin-top: 0;
+}
+.dashboard_input_holiday_ex {
+  width: 100%;
+  margin-left: 10px;
+}
+.dashboard_input_holiday_ex input {
+  width: 240px;
+}
+.dashboard_input_holiday_ex select {
+  width: 270px;
+  border: 1px solid rgba(173, 169, 169, 0.925);
+  border-radius: 5px;
+  padding: 18px 10px;
+  background: transparent;
+}
+.dashboard_input textarea {
+  width: 373px;
+  border: 1px solid rgba(173, 169, 169, 0.925);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: transparent;
+}
+
+.dashboard_input select {
+  width: 373px;
+  border: 1px solid rgba(173, 169, 169, 0.925);
+  border-radius: 5px;
+  padding: 18px 10px;
+  background: transparent;
+}
+
+.dashboard_input textarea:focus {
+  border-color: blue !important;
+}
+.type_submit_btn {
+  margin-top: 15px;
+}
+
+.delect_icon {
+  position: absolute;
+  top: 43px;
+  right: 55px;
+  cursor: pointer;
+  color: crimson;
+  font-size: 24px;
+}
+
+/* category */
+.admin_up_btn,
+.admin_de_btn {
+  background: crimson;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.admin_de_btn {
+  color: #fff;
+}
+.flex_inputs {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.flex_inputs_extra {
+  display: flex;
+  justify-content: flex-start;
+}
+.extra_margin {
+  margin: 20px 0px !important;
+}
+.multi_input {
+  position: relative;
+}
+.common_delete_btn {
+  position: absolute;
+  top: 43px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: crimson;
+  font-size: 25px;
+  cursor: pointer;
+}
+.add_extra_btn {
+  display: flex;
+  gap: 4rem;
+}
+.add_option_btn {
+  padding: 5px 10px;
+  background: #08428a;
+  margin-right: auto;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.add_extra_label {
+  flex-basis: 100%;
+}
+.add_extra_btn {
+  flex-basis: 40%;
+}
+
+.checkbox_input {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.tab_export_import {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  width: calc(100% - 185px);
+}
+.tab_export_import_main {
+  width: 100%;
+}
+.tab_export_import .MuiTabs-flexContainer {
+  justify-content: space-around;
+}
+.tabel_button_main {
+  display: flex;
+  justify-content: space-between;
+}
+.export_select_main {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.displayNone {
+  visibility: hidden;
+}
+
+.fields_title {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.amenities_selector {
+  text-transform: capitalize;
+}
+.itinerary_image_input {
+  padding-top: 30px;
+}
+
+.upload_image_container {
+  display: flex;
+}
+.adminSidebarBefore {
+  position: fixed;
+  z-index: 10;
+  background: #fff;
+  top: 63px;
+}
+.dashboardMain {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  background: #f5f5f5;
+  font-family: "Mulish", sans-serif !important;
+}
+.display_none {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  background: #f5f5f5;
+  font-family: "Mulish", sans-serif !important;
+  display: none;
+}
+
+.hiddenSidbar {
+  display: flex;
+  width: 100%;
+  transform: translateX(-400px);
+  transition: all 0.5s;
+}
+.sidebarMain {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.oder-details {
+  width: 85%;
+  margin-top: 70px;
+}
+.dashboardMain .sidebarBefore {
+  width: 205px;
+  height: 92vh;
+  transition: all 0.5s;
+  position: fixed;
+  background: #0d0c22;
+  z-index: 1;
+  top: 64px;
+  z-index: 10;
+  overflow-y: auto !important;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.dashboardMain ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dashboardMain ::-webkit-scrollbar-thumb {
+  background-color: #e4e1e1;
+}
+
+.dashboardMain ::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.dashboard_init {
+  height: 100vh;
+  overflow-y: auto;
+}
+.dashboardMain .adminSide {
+  width: 170px;
+  height: 100vh;
+  transition: all 0.5s;
+  position: fixed;
+  z-index: 10;
+  overflow-y: auto !important;
+}
+.sidebarAfter {
+  height: 0vh;
+  transform: translateX(-390px);
+  display: inline-block;
+  width: 0;
+}
+.userProfile {
+  padding: 10px;
+  cursor: pointer;
+}
+.userProfile h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user_rating {
+  font-size: 14px;
+  color: #2b2d33;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.user_rating svg {
+  font-size: 22px;
+  color: #2b2d33;
+}
+.user_email {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+}
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user_Name {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+.userDashboardMenu {
+  display: flex;
+  justify-content: center;
+}
+.userDashboardMenu ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.userDashboardMenu ul li {
+  list-style: none;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+.overview {
+  color: #7c96ab;
+  font-weight: 500;
+  padding-left: 5px;
+}
+.userDashboardMenu ul li:hover {
+  background-color: rgba(218, 214, 214, 0.842);
+}
+.dashboard_containerBefore {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  overflow: hidden;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 45px;
+}
+
+.dashboardMain .dashboard_containerAfter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  height: 100%;
+  min-height: 100vh;
+  margin-top: 45px;
+}
+.adminDashboardMenu ul {
+  list-style: none;
+}
+.adminDashboardMenu a {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 1rem;
+  margin: 10px 0;
+  margin-left: 10px;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.adminDashboardMenu a:hover {
+  text-decoration: none !important;
+  color: #fff;
+}
+/* common dashboard btn */
+p,
+th,
+td,
+tr {
+  font-family: "Mulish", sans-serif !important;
+  font-size: 16px !important;
+}
+.userProfile {
+  margin: 0 auto;
+}
+.user_dashboard_image img {
+  width: 100%;
+}
+.common_dashboard_btn {
+  background: #0f64ccc9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  margin: 15px;
+  cursor: pointer;
+}
+.submit_btn {
+  background: #0f64ccc9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.userTabAfter {
+  width: 100%;
+}
+.view_product_btn {
+  background: #0f64ccc9;
+  padding: 12px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dashboard_pending_btn button {
+  background: #0f64ccc9;
+  padding: 8px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.dashboard_paid_btn button {
+  background: #489bf6;
+  padding: 8px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dashboard_draft_btn button {
+  background: #808185;
+  padding: 8px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 15px;
+}
+.not_colour_border {
+  background: transparent;
+  padding: 8px 20px;
+  color: #2b2d33;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.booking_filter_input {
+  width: 100%;
+  text-align: right;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+}
+.booking_filter_input select {
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: none;
+  margin: 10px 0;
+}
+
+.selector {
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+.auth_photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fee_input_main {
+  display: flex;
+  gap: 0.5rem;
+
+  width: 100%;
+}
+.fee_input_main input {
+  width: 100%;
+}
+.dashboard_container_form .common_sub_title {
+  padding: 20px 0;
+}
+.text_field_multi {
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.nav_active {
+  background-color: #0f64cc9f;
+  padding: 10px 5px;
+}
+.nav-link {
+  background: transparent;
+  padding: 10px 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .flex_inputs {
+    flex-direction: column;
+  }
+  .flex_inputs_extra {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flex_inputs {
+    flex-direction: column;
+  }
+  .flex_inputs_extra {
+    flex-direction: column;
+  }
+  .add_extra_label {
+    flex-basis: 60%;
+  }
+  .add_extra_btn {
+    flex-basis: 40%;
+  }
+  .common_delete_btn {
+    position: absolute;
+    top: 43px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: crimson;
+    font-size: 25px;
+  }
+  .dashboard_container {
+    width: 100%;
+    min-height: 80vh;
+    margin: 0 auto;
+  }
+  .displayNone {
+    display: none;
+  }
+  .dashboard_containerBefore {
+    margin-left: 0;
+  }
+  .dashboard_container {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .dashboard_container_form {
+    width: 100%;
+    margin: auto;
+  }
+  .dashboard_input input,
+  .dashboard_input_holiday_ex input {
+    width: 300px;
+  }
+  .checkbox_input {
+    width: 305px;
+  }
+  .dashboard_input select,
+  .dashboard_input_holiday_ex select {
+    width: 326px;
+  }
+  .dashboard_input textarea {
+    width: 326px;
+  }
+  .dashboard_input {
+    width: 100%;
+  }
+  .tab_export_import_main {
+    width: 100%;
+  }
+  .tabel_button_main {
+    flex-direction: column;
+  }
+  .export_select_main {
+    width: 100%;
+    margin: 20px 0;
+  }
+  label + .MuiInput-formControl {
+    margin-top: 27px !important;
+  }
+  .dashboard_containerBefore .dashboard {
+    width: 100%;
+    background: #fff;
+  }
+  .MuiTab-root {
+    min-width: 85px !important;
+  }
+  .dashboardMain .sidebarBefore {
+    top: 55px;
+    z-index: 5;
+  }
+  .sidebarAfter {
+    height: 0vh;
+  }
+  .sidebarMain {
+    height: 100vh;
+    width: 100%;
+  }
+  .userDashboardMenu ul li {
+    list-style: none;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .card-heading {
+    padding: 20px 6px;
+  }
+  .oder-details {
+    width: 98%;
+  }
+  .dashboard_containerBefore {
+    margin-left: 0px;
+    margin-top: 45px;
+  }
+  .dashboardMain .dashboard_containerAfter {
+    margin-left: 0px;
+    margin-top: 45px;
+  }
+}

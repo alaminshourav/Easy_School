@@ -1,0 +1,168 @@
+.text_field {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  background: transparent;
+  font-weight: normal;
+  font-size: 14px;
+}
+.input_label {
+  font-size: 16px;
+  font-weight: 500;
+}
+.subject_input_container {
+  position: relative;
+  width: 100%;
+}
+.add_icon {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+.add_icon svg {
+  cursor: pointer;
+  color: #ffa83d;
+  font-size: 25px;
+}
+.previous_fee {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.class_card_main {
+  background: #00aeff;
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+}
+.class_card_heading {
+  text-align: center;
+}
+.class_card_heading h3 {
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: 700;
+  color: #fff;
+}
+.class_card_heading p {
+  font-size: 14px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.card_left_main {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border: 3px solid #2b2d33;
+  min-height: 250px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card_left {
+  min-height: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+.card_left h5,
+.card_left_main h5 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #fff;
+}
+.card_left ol,
+.card_left_main ol {
+  padding-left: 20px;
+}
+.card_left ol li,
+.card_left_main ol li {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+.card_right {
+  min-height: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid #2b2d33;
+  border-radius: 5px;
+  text-align: center;
+}
+.card_right h5 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.card_right p {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.btn_container_class {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 30px;
+}
+.class_btn {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #0f64ccc9;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.border_bottom {
+  border-bottom: 2px solid #0f64ccc9;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2b2d33;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.previous_sub_card {
+  padding: 25px 15px;
+  height: 100%;
+  background: #00aeff;
+  box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.502);
+  border-radius: 5px;
+}
+.delete_icon {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  color: crimson;
+}
+.delete_icon svg {
+  cursor: pointer;
+}
+@media only screen and (max-width: 668px) {
+  .card_left_main {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .class_card_main {
+    margin: 10px;
+  }
+  .btn_container_class {
+    padding: 20px 5px;
+  }
+  .class_btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}

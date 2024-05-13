@@ -1,0 +1,27 @@
+.teacher_level_title {
+  font-size: 16px;
+  padding: 20px 0;
+  font-weight: 600;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.dashboard_pdf_btn a {
+  background: #ffa83d;
+  padding: 12px 20px;
+  color: #222;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dashboard_btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.align_left {
+  text-align: end;
+}

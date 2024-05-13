@@ -1,0 +1,24 @@
+.dashboard_main_card {
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dashboard_main_card_icon {
+  width: 70px;
+  height: 70px;
+  background: #cbe1fc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard_main_card_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,27 @@
+.banner_img {
+  width: 100%;
+  height: calc(100vh - 100px);
+  object-fit: cover;
+}
+.arrows_main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrows_main .left_arrow img,
+.arrows_main .right_arrow img {
+  width: 60px;
+  height: 70px;
+  object-fit: contain;
+  cursor: pointer;
+}
+@media only screen and (max-width: 668px) {
+  .arrows_main .left_arrow img,
+  .arrows_main .right_arrow img {
+    width: 30px;
+    height: 50px;
+  }
+}

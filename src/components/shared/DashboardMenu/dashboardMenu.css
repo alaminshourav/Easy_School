@@ -1,0 +1,77 @@
+.userName {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+.login_user_name {
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 600;
+}
+.dashBoardMenu {
+  display: flex;
+  align-items: center;
+}
+.dashBoardMenu a {
+  color: #222;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.dashBoardMenu a button {
+  background: transparent;
+  color: #222;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.MuiIconButton-colorInherit:hover {
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.dashboardMenu svg {
+  color: #fff !important;
+}
+.userImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.logo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.logo > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo h5 {
+  line-height: 1;
+}
+.logo_subtitle {
+  font-size: 12px;
+  line-height: 1;
+}
+.admin_dashboard_logo {
+  color: #fff;
+}
+.admin_dashboard_logo {
+  text-decoration: none;
+}
+.mobile_icon_main {
+  display: none;
+}
+@media only screen and (max-width: 668px) {
+  .mobile_icon_main {
+    display: block;
+  }
+}

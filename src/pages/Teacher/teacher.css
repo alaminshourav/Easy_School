@@ -1,0 +1,69 @@
+.teacher_card {
+  border: 2px solid #ddd;
+  background: #efefef;
+  min-height: 350px;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+}
+.img_container {
+  width: 120px;
+  height: 130px;
+  margin: 0 auto;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.teacher_card .text_container {
+  padding-top: 15px;
+  text-align: center;
+}
+.teacher_card .text_container h6 {
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+.text_container_location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+.text_container_location h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.flex_para {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 0;
+}
+.flex_para svg {
+  font-size: 22px;
+  color: #f7a31a;
+}
+.details_btn {
+  text-align: end;
+  padding: 0px 0px 8px 0px;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+.details_btn button {
+  background: #0f64ccc9;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

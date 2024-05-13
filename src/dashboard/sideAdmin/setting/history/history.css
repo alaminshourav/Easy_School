@@ -1,0 +1,14 @@
+.dashboard_download_btn {
+  padding: 14px 60px;
+  background: #00aeff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.table_row {
+  margin: 0 auto;
+  text-align: center;
+}

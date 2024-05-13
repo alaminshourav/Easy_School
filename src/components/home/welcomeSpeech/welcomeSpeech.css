@@ -1,0 +1,8 @@
+.welcome_padding {
+  padding-bottom: 10px;
+}
+.welcome_image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
